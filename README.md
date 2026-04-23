@@ -19,10 +19,7 @@
 - [API Documentation](#api-documentation)
 - [Project Structure](#project-structure)
 - [Engineering Highlights](#engineering-highlights)
-- [Screenshots](#screenshots)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Contact](#contact)
+
 
 ---
 
@@ -283,16 +280,6 @@ This approach guarantees consistent styling across devices and prevents client-s
 
 ### 5. Secure File Handling
 Resume uploads use `Multer` with strict file-type validation (PDF only) and size limits. Parsed text is processed server-side; original files are handled as streams where possible to minimize memory footprint.
-
----
-
-## Screenshots
-
-> **Note:** Add your actual application screenshots below.
-
-| Home / Upload | Skill Gap Analysis | Generated Resume |
-|---|---|---|
-| ![Upload](docs/screenshot-upload.png) | ![Analysis](docs/screenshot-analysis.png) | ![Resume](docs/screenshot-resume.png) |
 
 ---
 
